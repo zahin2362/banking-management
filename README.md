@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <conio.h>
 #include <string.h>
 #include <time.h>
 
@@ -317,6 +317,5 @@ int main()
         else if(ch == 3) adminPanel();
         else break;
     }
-    return 0;
+    getch();
 }
-hello
